@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { AppStyle, Background1, Background2 } from './theme/LandingStyle'
 
 function calculateDate () {
-  const fridayDate = new Date('07/18/2021')
+  const fridayDate = new Date('09/13/2021')
   const today = new Date()
 
   const diff = fridayDate.getTime() - today.getTime()
