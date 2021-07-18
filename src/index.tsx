@@ -1,7 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import GlobalStyle from './theme/GlogalStyle';
+// eslint-disable-next-line no-use-before-define
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import GlobalStyle from './theme/GlogalStyle'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -9,5 +10,4 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById('root')
-);
-
+)
